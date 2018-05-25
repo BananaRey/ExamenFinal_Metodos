@@ -4,7 +4,10 @@
 import numpy as np
 
 x = np.int_(np.random.random(100)*1000)
-print(x)
-
+i=0
+while(x[i]<800):
+    if(x[i]%2.0!=0.0):
+        print(x[i])
+    i=i+1
 
 
